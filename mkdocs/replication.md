@@ -1,8 +1,5 @@
 # Result Replication
 
- > tl;dr: We offer  [a pre-rendered Jupyter Notebook](https://github.com/m5c/RestifyJupyter/blob/master/Restify.ipynb). (No installation required)
- > If you want to actually *replicate*, try [the *docker*](https://github.com/m5c/RestifyJupyter#dockerized-notebook) for minimal effort. (Takes about 2 minutes of your time) 
-
 All statistical figures and listings in our paper submission were created programmatically.  
 The code to produce them is publicly available and well documented.
 
