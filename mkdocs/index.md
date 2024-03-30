@@ -3,6 +3,7 @@
 All you need to replicate our findings, in one place.
 
 > **tl;dr:** We offer  [a pre-rendered Jupyter Notebook](https://github.com/m5c/RestifyJupyter/blob/master/Restify.ipynb). (No installation required)
+
 > If you want to actually *replicate*, try [the *docker*](https://github.com/m5c/RestifyJupyter#dockerized-notebook) for minimal effort. (Takes about 2 minutes of your time)
 
 
