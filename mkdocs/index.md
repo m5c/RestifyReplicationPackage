@@ -1,6 +1,9 @@
 # RESTify Experiment Replication Package
 
-All you need to replicate our findings, build atop of our data, and reuse our tool.
+All you need to replicate and inspect our findings, build atop of our raw data, and reuse the tools we built for this study.
+
+ > **The simplest way to replicate our study findings**, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up your own Jupyter Notebook and replicate all statics and figures printed in the paper submission. You only need docker and a browser.
+
 
 ## About
 
@@ -10,7 +13,6 @@ This webpage servers as entry point for the artifact submission of our [MODELS 2
  * We carefully documented all our methodology, and automated our analysis. E.g. all paper figures are generated from raw data, and we provide you the means to conveniently validate correctness of our findings on your local machine.  
  * Furthermore we publish all study material and tools used to conduct the study, so you can easily replicate the experiment, or reuse parts of our material for follow-up research.
 
- > **The simplest way to replicate our study** results, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up your own Jupyter Notebook and replicate all statics and figures printed in the paper submission. You only need docker and a browser.
 
 ## Package Content
 
