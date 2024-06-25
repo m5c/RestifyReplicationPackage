@@ -1,6 +1,6 @@
 # RESTify Experiment Replication Package
 
-Markdown sources for instructions on how to replicate any component of the *RESTify Experiment*.
+Markdown sources for instructions on how to replicate and reuse any component of the *RESTify Experiment*.
 
  * The sources are compiled to a static HTML page, using MkDocs.
  * An official export of the HTML instructions is hosted [here, on github pages](https://m5c.github.io/RestifyReplicationPackage/).

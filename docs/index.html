@@ -253,8 +253,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#collected-data" class="md-nav__link">
-    Collected Data
+  <a href="#data-and-tools" class="md-nav__link">
+    Data and Tools
   </a>
   
 </li>
@@ -448,8 +448,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#collected-data" class="md-nav__link">
-    Collected Data
+  <a href="#data-and-tools" class="md-nav__link">
+    Data and Tools
   </a>
   
 </li>
@@ -475,37 +475,40 @@
 
 
 <h1 id="restify-experiment-replication-package">RESTify Experiment Replication Package</h1>
-<p>All you need to replicate our findings, in one place.</p>
-<blockquote>
-<p><strong>tl;dr:</strong> We offer  <a href="https://github.com/m5c/RestifyJupyter/blob/master/Restify.ipynb">a pre-rendered Jupyter Notebook</a>. (No installation required)</p>
-<p>If you want to actually <em>replicate</em>, try <a href="https://github.com/m5c/RestifyJupyter#dockerized-notebook">the <em>docker</em></a> for minimal effort. (Takes about 2 minutes of your time)</p>
-</blockquote>
+<p>All you need to replicate our findings, build atop of our data, and reuse our tool.</p>
 <h2 id="about">About</h2>
-<p>As part of our submission to the <a href="https://conf.researchr.org/track/models-2024/models-2024-technical-track#Practice-Track">MODELS 2024 conference</a>, we offer a replication package that allows fast and independent replication of all our results and interpretations.<br />
-This page serves as starting point for the various components needed.</p>
+<p>This webpage servers as entry point for the artifact submission of our <a href="https://conf.researchr.org/track/models-2024/models-2024-technical-track#Practice-Track">MODELS 2024 conference</a> contribution.</p>
+<ul>
+<li>Main purpose of this replication package is to allow fast and independent replication of all our results and interpretations.</li>
+<li>We carefully documented all our methodology, and automated our analysis. E.g. all paper figures are generated from raw data, and we provide you the means to conveniently validate correctness of our findings on your local machine.  </li>
+<li>Furthermore we publish all study material and tools used to conduct the study, so you can easily replicate the experiment, or reuse parts of our material for follow-up research.</li>
+</ul>
+<blockquote>
+<p><strong>The simplest way to replicate our study</strong> results, is <a href="https://github.com/m5c/RestifyJupyter#dockerized-notebook">the prepared docker image</a>. Within just a few minutes you can power up your own Jupyter Notebook and replicate all statics and figures printed in the paper submission. You only need docker and a browser.</p>
+</blockquote>
 <h2 id="package-content">Package Content</h2>
-<p>This section hot-links package content by scope</p>
+<p>This section serves as starting point, where we present the various components of our accompanying artifact submission. Each item on the left navigation bar opens a dedicated page for detailed information of a specific artifact component.</p>
 <h3 id="replication">Replication</h3>
 <ul>
-<li><a href="replication/">Result Replication</a>: Center-piece of our replication package. <ul>
-<li>You can recreate all paper figures and numbers using an interactive notebook.</li>
-<li>We provide the raw data. You crunch it yourself, using our provided statistical scripts.</li>
-<li>You can inspect a pre-rendered notebook or run a one liner-docker command for local replication.</li>
+<li><a href="replication/">Result Replication</a>: Center-piece of our replication package is a Jupyter Notebook that takes you through the data analysis and replicates all paper figures on your machine.<ul>
+<li>We offer various levels of inspection, from static prerendered notebook, to dockerized local replication, to in-depth analysis of the implementation in PyCharm.</li>
+<li>For the replication we provide you with the raw data collected throughout the experiment. Then you crunch it locally and replicate the findings, all using convenient scripts.</li>
+<li>The data analysis was coded for easy inspection and transparency. You can at any point in time inspect the well-documented codenbase, and verify our implementation.</li>
 </ul>
 </li>
 </ul>
 <h3 id="material">Material</h3>
+<p>In addition to <em>replication</em> of our findings, we provide everything needed to replicate the experiment itself, i.e. we publish the sources for all material and tools involved in performing the experiment:</p>
 <ul>
-<li><a href="recruitment/">Recruitment Material</a>: A reference to the webpage used for participant recruitment.</li>
-<li><a href="allocation/">Group Allocation Algo</a>: Source code and documentation of the algorithm implemented to create a balanced group allocation.</li>
-<li><a href="material/">Task Instruction Material</a>: Collection with instructions for the task instructions. There are four, since the experiment had four groups with diverging task context and order.</li>
+<li><a href="recruitment/">Recruitment Material</a>: Sources and rendered HTML version of the webpage used for participant recruitment.</li>
+<li><a href="allocation/">Group Allocation Algo</a>: Source code and documentation of the algorithm implemented to create a balanced participant groups (comparable skillsets per group).</li>
+<li><a href="material/">Task Instruction Material</a>: Sources and rendered HTML version with textual and video task instructions for all four control groups.</li>
 <li><a href="applications.md">Sample Legacy Applications (Objects)</a>: The sample applications used task for training or actual conversion task.</li>
 </ul>
-<h3 id="collected-data">Collected Data</h3>
+<h3 id="data-and-tools">Data and Tools</h3>
 <ul>
-<li><a href="data/">Raw Experiment Collected Data</a>: Raw data collected throughout the experiment.</li>
-<li><a href="analyzer/">Submission Correctness Evaluation Tool</a>: Sources and documentation of the analyzer tool that we implemented to assess correctness of participant submissions. </li>
-<li><a href="data">Extracted Times and Video Observations</a>.md: CSV and textual summary files that conclude data extracted from video material viewing, such as transcript of observations and time measurements for the individual conversion tasks.</li>
+<li><a href="analyzer/">Submission Correctness Evaluation Tool</a>: Sources and documentation of the analyzer tool that we implemented to assess correctness of participant submissions. A reusable tool to test REST APIs against a predefined interface and produce correctness reports.</li>
+<li><a href="data/">Raw Experiment Collected Data</a>: Raw data collected throughout the experiment: CSV and textual summary files that conclude data extracted from video material viewing, such as transcript of observations and time measurements for the individual conversion tasks.</li>
 </ul>
 
 
