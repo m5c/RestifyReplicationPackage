@@ -2,7 +2,7 @@
 
 All you need to replicate our findings, reuse our data or tools.
 
- > **The simplest way to replicate our study findings**, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up your own Jupyter Notebook and replicate all statics and figures printed in the paper submission. You only need docker and a browser.
+ > **The simplest way to replicate our study findings**, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up a Jupyter Notebook and replicate all statistics and figures of our paper. You only need docker and a browser.
 
 
 ## About

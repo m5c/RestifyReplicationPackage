@@ -1,5 +1,6 @@
 site_name: Restify Experiment Replication Package
-site_url: https://m5c.github.io/ExperimentReplicationPackage/
+site_url: https://m5c.github.io/RestifyReplicationPackage/
+use_directory_urls: false
 nav:
     - Welcome: index.md
     - Result Replication: replication.md
