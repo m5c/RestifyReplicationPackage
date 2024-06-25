@@ -1,6 +1,6 @@
 # RESTify Experiment Replication Package
 
-All you need to replicate and inspect our findings, build atop of our raw data, and reuse the tools we built for this study.
+All you need to replicate our findings, reuse our data or tools.
 
  > **The simplest way to replicate our study findings**, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up your own Jupyter Notebook and replicate all statics and figures printed in the paper submission. You only need docker and a browser.
 
