@@ -2,18 +2,26 @@
 
 All you need to replicate our findings, reuse our data or tools.
 
+## ABOUT THIS SNAPSHOT VERSION
+
  > **THIS VERSION IS A STATIC, SELF-CONTAINED SNAPSHOT, CREATED FOR THE MODELS ARTIFACT EVALUATION. UNLESS YOU ARE A REVIEWER, PLEASE [ACCESS THE ORIGINAL](https://m5c.github.io/RestifyReplicationPackage/)**.
 
 **A few things to consider for this STATIC SNAPSHOT version**:
 
- * To ensure self-containment of this artifact submission, references to individual package components are provided as additional file system links.
-     * Links to the original components are indicated like this: {--original link sample--}
-     * Links to local file system snapshot alternatives are indicated like this: {==local filesystem snapshot==}
- * In some cases, this reduces convenience, for e.g. README.md files of software artifacts are not nicely rendered, when accessed as file system links.
+ * Some instructions advise you to clone from GitHub:
+     * Any clone instructions mentioned are redundant. This bundle already contains snapshots of all referenced GitHub repositories.
+     * Instead of cloning, simply locate the same-named top level folder of this bundle, using your file manager. 
+ * To ensure self-containment of this artifact submission, links to individual package components are highlighted. You can still access the original links, whenever in doubt:
+     * Links to the original, online components are indicated like in striketrough and red: {--like this--}. Those are still clickable links.
+     * Links to local file system copies, created specifically for this self-contained bundle are indicated in yellow: {==like this==}
+ * In some cases, the local links are less convenient, for e.g. README.md files of software artifacts are not as nicely rendered, when accessed on disk.
  
-*Hint, for result replication*:
+**Not all content of this bundle is relevant for result replication**:
 
- > **The simplest way to replicate our study findings**, is [{--the prepared docker image--}](https://github.com/m5c/RestifyJupyter#dockerized-notebook) [{==snapshot-contained link==}](../../RestifyJupyter/README.md#dockerized-notebook) (Section: "*Dockerized Notebook*"). Within just a few minutes you can power up a Jupyter Notebook and replicate all statistics and figures of our paper. You only need docker and a browser.
+ * In good faith of sustainable research, we provide way **more than is needed to simply replicate** our study results.
+ * If you **only want to replicate our study findings**, you will be only interested in the [Result Replication](replication.md) component. See [{--prepared docker image--}](https://github.com/m5c/RestifyJupyter#dockerized-notebook) [{==snapshot copy of our Jupyter Notebook, including docker startup instructions==}](../../RestifyJupyter/README.md#dockerized-notebook) (Open file and follow instructions of section: "*Dockerized Notebook*"). 
+     * Within just a few minutes you can power up a Jupyter Notebook and replicate all statistics and figures of our paper. You only need docker and a browser.
+     * As previously mentioned, using this snapshot version you do not need to run the `git clone` command. You now already have a local repo clone of the Notebook project, as it is part of this bundle. Just navigate to the top level `RestifyJupyter` directory and follow the docker instructions.
 
 
 ## About
