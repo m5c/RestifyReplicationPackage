@@ -16,7 +16,7 @@ This webpage servers as entry point for the artifact submission of our [MODELS 2
 
 ## Package Content
 
-We now present the various components of our artifact submission. Each of items enumerated in the remainder corresponds to one entry on the navigation bar (left).
+We now present the various components of our artifact submission. Each of the items enumerated in the remainder also corresponds to matching entry on the left-side navigation bar.
 
 ### Replication
 
