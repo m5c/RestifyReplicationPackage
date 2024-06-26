@@ -11,7 +11,6 @@ nav:
     - Correctness Analyzer: analyzer.md
     - Observation Data: data.md
     - About: about.md
-
 theme:
   name: material
   logo: assets/logo.png
@@ -29,4 +28,5 @@ markdown_extensions:
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
+    - pymdownx.critic
 
