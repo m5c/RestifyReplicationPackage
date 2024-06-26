@@ -7,18 +7,18 @@ We release the source code and build / run instructions for all three legacy jav
 
 The zoo is **only** used for subject training. It is smaller than the applications used for the migration tasks.
 
- * [Zoo Legacy Sources on GitHub](https://github.com/m5c/Zoo)
+ * [{--Zoo Legacy Sources on GitHub--}](https://github.com/m5c/Zoo)  [{==Zoo Legacy Sources as snapshot on filesystem==}](../../RestifySampleApplications/Zoo-RESTifyStudy)
 
 ## The BookStore
 
 Legacy application No.1:  
 A simple e-commerce application.
 
- * [BookStore Legacy Sources on GitHub](https://github.com/m5c/BookStoreInternals/tree/RestifyStudy)
+ * [{--BookStore Legacy Sources on GitHub--}](https://github.com/m5c/BookStoreInternals/tree/RestifyStudy)  [{==BookStore Legacy Sources as snapshot on filesystem==}](../../RestifySampleApplications/BookStoreInternals-RESTifyStudy)
 
 ## Xox
 
 Legacy application No.2:  
 A simple turn based board game classic.
 
- * [Xox Legacy Sources on GitHub](https://github.com/m5c/XoxInternals/tree/RestifyStudy)
+ * [{--Xox Legacy Sources on GitHub--}](https://github.com/m5c/XoxInternals/tree/RestifyStudy)  [{==Xox Legacy Sources as snapshot on filesystem==}](../../RestifySampleApplications/XoxInternals-RESTifyStudy)

@@ -42,8 +42,8 @@ Each participant produced two software artifacts: One raw code submission, where
 
 Below are direct links to download all participant software submissions.
 
- * [All raw code and all models (anonymized)](https://github.com/m5c/RestifyAnalyzer/blob/master/02-uploads-anonymized-sources-models.zip) (and the corresponding generated code), provided by participants.
- * [All patched code and all models (anonymized)](https://github.com/m5c/RestifyAnalyzer/blob/master/03-uploads-sanitized-sources-models.zip) (and the corresponding generated code), provided by participants.
+ * [{--All raw code and all models (anonymized)--}](https://github.com/m5c/RestifyAnalyzer/blob/master/02-uploads-anonymized-sources-models.zip) [{==local snapshot of all patched code and all models (anonymized)==}](../../RestifyAnalyzer/02-uploads-anonymized-sources-models.zip) (and the corresponding generated code), provided by participants.
+ * [{--All patched code and all models (anonymized)--}](https://github.com/m5c/RestifyAnalyzer/blob/master/03-uploads-sanitized-sources-models.zip) [{==local snapshot of all patched code and all models (anonymized)==}](../../RestifyAnalyzer/03-uploads-sanitized-sources-models.zip) (and the corresponding generated code), provided by participants.
 
  > *Patched* refers to minimal changes done to participant submissions. In rare cases minimal project configuration mistakes prevented us from testing a submission. In these cases we minimally modified the participant submission. All study interpretations are based on the patched version. We describe the modifications applied in more detail in our paper submission.
  
