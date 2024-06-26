@@ -423,17 +423,18 @@
 
 
 <h1 id="group-allocation">Group Allocation</h1>
+<p>We implemented an algorithm to partition study participants on comparable groups. The algorithm is a heuristic that aims at minimizing skill differences between study groups. Although not needed to replicate our results, we release the implementation, for further transparency and easier extension of our work.</p>
 <h2 id="source-code">Source Code</h2>
-<p>The source code of the <a href="https://github.com/m5c/RecruitmentFormInterpreter">MiniMax implementation and documentation</a> is available on GitHub.</p>
+<p>The documented source code of the <a href="https://github.com/m5c/RecruitmentFormInterpreter">MiniMax implementation and documentation</a> is available on GitHub.</p>
 <h2 id="explanations">Explanations</h2>
 <p>We implemented a custom MiniMax Heuristic, to assess the participant's skill profiles and create balanced experiment groups.  </p>
 <ul>
 <li>To maintain transparency we provide source code and documentation of the heuristic used to create the participant allocations.</li>
-<li>The program parses all provided self assessment forms (see <a href="recruitment.html">corresponding entry of replication bundle</a> which they provided during recruitment, and then performs a <a href="https://en.wikipedia.org/wiki/Minimax">MiniMax search</a> for the fairest group allocation.</li>
+<li>The program parses all provided self assessment forms (see <a href="recruitment.html">corresponding entry of replication bundle</a>) which they provided during recruitment, and then performs a <a href="https://en.wikipedia.org/wiki/Minimax">MiniMax search</a> for the fairest group allocation.</li>
 <li>A side product of this software is the generation of personalized emails for following communication with the individual participants. </li>
 </ul>
 <blockquote>
-<p>Since the purpose of this program is to select of all applicants and provide a mapping from their legal names to pseudonyms, it can be only executed with access to the participant details. The latter we cannot release for legal reasons.</p>
+<p>Since the purpose of this program is to select of all applicants and provide a mapping from their legal names to group-specific pseudonyms, it can be only executed with access to the sensitive participant sheets. The latter we do not release, to protect participant privacy.</p>
 </blockquote>
 
 

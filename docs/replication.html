@@ -410,25 +410,21 @@
 
 <h1 id="result-replication">Result Replication</h1>
 <p>All statistical figures and listings in our paper submission were created programmatically.<br />
-The code to produce them is publicly available and well documented.</p>
-<p>On the <a href="https://github.com/m5c/RestifyJupyter">dedicated project page</a>, we provide:</p>
+The code to produce them, from raw data (which we also provide) is publicly available and well documented.</p>
+<p>As part of the <a href="https://github.com/m5c/RestifyJupyter">dedicated component</a>, we provide:</p>
 <ul>
-<li>The raw data (but you get that also here, for your convenience ;) )</li>
+<li>The raw data</li>
 <li>The code used for statistical analysis</li>
-<li>Instructions on how to very rapidly replicate / reproduce our results</li>
+<li>Instructions on how to rapidly run (and reuse!) the code</li>
 </ul>
-<blockquote>
-<p>Spoiler alert: we use docker + jupyter, so you don't need to install anything.</p>
-</blockquote>
 <h2 id="where-to-start">Where to Start</h2>
-<p>We provide several access points, for fast to thorough replication:</p>
-<ul>
-<li>Static, rendered Jupyter Notebook: You can inspect a static one-shot render of our Notebook <a href="https://github.com/m5c/RestifyJupyter/blob/master/Restify.ipynb">on GitHub. You only need a browser.</a><br />
-Please note that the anonymization process damaged some of the integrated figures. We apologize for the inconvenience.</li>
-<li>Dynamic, using a docker configuration. See <a href="https://github.com/m5c/RestifyJupyter#dockerized-notebook">install instructions for Docker</a>.</li>
-<li>Dynamic, your own Jupyter Notebook. See <a href="https://github.com/m5c/RestifyJupyter#manual-notebook">install instructions for native Jupyter</a></li>
-<li>Dynamic, using the raw python sources, and an IDE. See <a href="https://github.com/m5c/RestifyJupyter#pycharm-ide">install instructions for PyCharm</a></li>
-</ul>
+<p>Depending on how-thorough you want to dive into the result replication, here are your four options:</p>
+<ol>
+<li>Static <strong>inspection</strong>, rendered Jupyter Notebook: You can view a static, non-executable render of our Notebook <a href="https://github.com/m5c/RestifyJupyter/blob/master/Restify.ipynb">on GitHub. You only need a browser.</a></li>
+<li>Dynamic <strong>result replication</strong>, using a docker configuration: You can <strong>execute and replicate</strong> all figures and results, with minimal installation effort. See <a href="https://github.com/m5c/RestifyJupyter#dockerized-notebook">install instructions for Docker</a></li>
+<li>Dynamic <strong>result replication</strong>, using your own Jupyter Notebook: You can replicate and extend our analysis. See <a href="https://github.com/m5c/RestifyJupyter#manual-notebook">install instructions for native Jupyter</a>  </li>
+<li>Dynamic <strong>result replication and function reuse</strong>, using the raw python sources, and an IDE: You have full control over all analysis functions and their internals. See <a href="https://github.com/m5c/RestifyJupyter#pycharm-ide">install instructions for PyCharm</a>  </li>
+</ol>
 
 
 

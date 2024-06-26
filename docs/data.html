@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-like-all-of-it-kind-of" class="md-skip">
+        <a href="#collected-data" class="md-skip">
           Skip to content
         </a>
       
@@ -450,28 +450,30 @@
                   
 
 
-<h1 id="data-like-all-of-it-kind-of">Data. Like... all of it. Kind of.</h1>
-<p>All data we collected. </p>
-<blockquote>
-<p>In some cases we had to anonymize, to protect participant identity. But you can still replicate all results. Cheers.</p>
-</blockquote>
+<h1 id="collected-data">Collected Data</h1>
+<p>This page lists data we <em>collected</em> in preparation, or throughout the experiment.<br />
+There are two limitations to consider:</p>
+<ul>
+<li>The data is anonymized, i.e. we wiped or replaced any information related to participant identity.</li>
+<li>This page contains no <em>interpretation results</em>, i.e. statistical insights, or conclusions. If you are interested in replicating our interpretation results (as presented in our paper submission), we kindly refer you to the dedicated <a href="replication.html">result replication</a> page.</li>
+</ul>
 <h2 id="video-observations">Video Observations</h2>
-<p>We collected more than 72 hours of video onscreen recordings throughout the experiment. Participants were asked to avoid capturing personal information or identifiers. Unfortunately this request was widely ignored. To preserve participant anonymity, <strong>we cannot provide the original video material</strong>. Bummer.
-We can however provide all information, extracted <strong><em>from</em></strong> the video material.</p>
+<p>We collected more than 72 hours of video onscreen recordings throughout the experiment. Participants were asked to avoid capturing personal information or identifiers. Unfortunately this request was often ignored. To preserve participant anonymity, <strong>we do not provide original video material</strong>.</p>
+<p>However, we do provide a lot of information, carefully extracted <strong><em>from</em></strong> the video material:</p>
 <ul>
 <li>Task solving and task preparation times: We measured how much time every participant spent on the actual project conversion tasks and the instructions and provide precise information on their time spendings.</li>
 <li>Task deviations, difficulties, remarkable observations: We provide for each participant and each refactoring task a transcript of all noteworthy events. This includes problems with specific task phases, problems with software used, even information on their task solving activity itself.</li>
 <li>Participant methodology feedback preferences</li>
 </ul>
-<p>Here's the actual data, in various file formats:</p>
+<p>Below are direct links to the described data, in various file formats:</p>
 <ul>
 <li><a href="extrafiles/observations/video-observations.numbers">Mac Numbers File</a></li>
 <li><a href="extrafiles/observations/video-observations.xlsx">Microsoft Excel File</a></li>
 <li><a href="extrafiles/observations/video-observations.csv">CSV File</a></li>
 </ul>
 <h2 id="participant-feedback">Participant Feedback</h2>
-<p>Participant issued comments on the study, issues, preferences after study conclusion.</p>
-<p>We crunched it all for you, in various file formats:</p>
+<p>Participant provided a plethora of comments on the study, regarding issues, personal preferences, and general feedback. The comments were collected as final step of their study participation.</p>
+<p>Below are direct links to the described data, in various file formats:</p>
 <ul>
 <li><a href="extrafiles/feedback/participant-feedback.numbers">Mac Numbers File</a></li>
 <li><a href="extrafiles/feedback/participant-feedback.xlsx">Microsoft Excel File</a></li>
@@ -479,17 +481,21 @@ We can however provide all information, extracted <strong><em>from</em></strong>
 </ul>
 <p>We also created an <a href="extrafiles/feedback/participant-feedback-summary.csv">informal meta summary</a> of most common issues observed in task solving.</p>
 <h2 id="code-model-submissions">Code / Model Submissions</h2>
-<p>Everything the participants actively produced on their endevour to migrate the provided legacy applications:</p>
+<p>Each participant produced two software artifacts: One raw code submission, where the participant manually migrated an application to REST - and one model submission, where the migration was performed by help of modelling. Note that in the latter case the provided models were used to directly generate corresponding code.</p>
+<p>Below are direct links to download all participant software submissions.</p>
 <ul>
-<li><a href="https://www.cs.mcgill.ca/~mschie3/restify/submissions/02-uploads-anonymized-sources-models.zip">All raw code and all models (anonymized)</a> (and the corresponding generated code), provided by participants.</li>
-<li><a href="https://www.cs.mcgill.ca/~mschie3/restify/submissions/03-uploads-sanitized-sources-models.zip">All patched code and all models (anonymized)</a> (and the corresponding generated code), provided by participants.</li>
+<li><a href="https://github.com/m5c/RestifyAnalyzer/blob/master/02-uploads-anonymized-sources-models.zip">All raw code and all models (anonymized)</a> (and the corresponding generated code), provided by participants.</li>
+<li><a href="https://github.com/m5c/RestifyAnalyzer/blob/master/03-uploads-sanitized-sources-models.zip">All patched code and all models (anonymized)</a> (and the corresponding generated code), provided by participants.</li>
 </ul>
 <blockquote>
-<p>We patched some submissions before testing, i.e. in some cases a minimal configuration mistake prevented testing. See our publication for the details on the patches performed.</p>
+<p><em>Patched</em> refers to minimal changes done to participant submissions. In rare cases minimal project configuration mistakes prevented us from testing a submission. In these cases we minimally modified the participant submission. All study interpretations are based on the patched version. We describe the modifications applied in more detail in our paper submission.</p>
 </blockquote>
 <h2 id="participant-test-results">Participant Test Results</h2>
-<p>We tested all submissions against the requested REST API interface description.</p>
-<p>Here's a <a href="extrafiles/observations/tests.csv">CSV with all the results</a>. You can reproduce the CSV using the above code / model submissions and our <a href="analyzer.html">provided tester</a>.</p>
+<p>We determined <em>correctness</em> of all submissions, by testing against a stipulated REST API interface description. The process is described in more detail in the dedicated <a href="analyzer.html">analyzer section</a>.</p>
+<ul>
+<li>For your convenience, we provide a <a href="extrafiles/observations/tests.csv">direct link with the test results in CSV format</a>. </li>
+<li>You can reproduce the test results by following the instructions on the <a href="analyzer.html">analyzer documentation page</a>.</li>
+</ul>
 
 
 

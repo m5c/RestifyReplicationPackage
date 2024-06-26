@@ -1,19 +1,22 @@
-# Data. Like... all of it. Kind of.
+# Collected Data
 
-All data we collected. 
+This page lists data we *collected* in preparation, or throughout the experiment.  
+There are two limitations to consider:
 
- > In some cases we had to anonymize, to protect participant identity. But you can still replicate all results. Cheers.
+ * The data is anonymized, i.e. we wiped or replaced any information related to participant identity.
+ * This page contains no *interpretation results*, i.e. statistical insights, or conclusions. If you are interested in replicating our interpretation results (as presented in our paper submission), we kindly refer you to the dedicated [result replication](replication.md) page.
 
 ## Video Observations
 
-We collected more than 72 hours of video onscreen recordings throughout the experiment. Participants were asked to avoid capturing personal information or identifiers. Unfortunately this request was widely ignored. To preserve participant anonymity, **we cannot provide the original video material**. Bummer.
-We can however provide all information, extracted ***from*** the video material.
+We collected more than 72 hours of video onscreen recordings throughout the experiment. Participants were asked to avoid capturing personal information or identifiers. Unfortunately this request was often ignored. To preserve participant anonymity, **we do not provide original video material**.
+
+However, we do provide a lot of information, carefully extracted ***from*** the video material:
 
  * Task solving and task preparation times: We measured how much time every participant spent on the actual project conversion tasks and the instructions and provide precise information on their time spendings.
  * Task deviations, difficulties, remarkable observations: We provide for each participant and each refactoring task a transcript of all noteworthy events. This includes problems with specific task phases, problems with software used, even information on their task solving activity itself.
  * Participant methodology feedback preferences
 
-Here's the actual data, in various file formats:
+Below are direct links to the described data, in various file formats:
 
  * [Mac Numbers File](extrafiles/observations/video-observations.numbers)
  * [Microsoft Excel File](extrafiles/observations/video-observations.xlsx)
@@ -22,9 +25,9 @@ Here's the actual data, in various file formats:
 
 ## Participant Feedback
 
-Participant issued comments on the study, issues, preferences after study conclusion.
+Participant provided a plethora of comments on the study, regarding issues, personal preferences, and general feedback. The comments were collected as final step of their study participation.
 
-We crunched it all for you, in various file formats:
+Below are direct links to the described data, in various file formats:
 
  * [Mac Numbers File](extrafiles/feedback/participant-feedback.numbers)
  * [Microsoft Excel File](extrafiles/feedback/participant-feedback.xlsx)
@@ -35,15 +38,18 @@ We also created an [informal meta summary](extrafiles/feedback/participant-feedb
 
 ## Code / Model Submissions
 
-Everything the participants actively produced on their endevour to migrate the provided legacy applications:
+Each participant produced two software artifacts: One raw code submission, where the participant manually migrated an application to REST - and one model submission, where the migration was performed by help of modelling. Note that in the latter case the provided models were used to directly generate corresponding code.
 
- * [All raw code and all models (anonymized)](https://www.cs.mcgill.ca/~mschie3/restify/submissions/02-uploads-anonymized-sources-models.zip) (and the corresponding generated code), provided by participants.
- * [All patched code and all models (anonymized)](https://www.cs.mcgill.ca/~mschie3/restify/submissions/03-uploads-sanitized-sources-models.zip) (and the corresponding generated code), provided by participants.
+Below are direct links to download all participant software submissions.
 
- > We patched some submissions before testing, i.e. in some cases a minimal configuration mistake prevented testing. See our publication for the details on the patches performed.
+ * [All raw code and all models (anonymized)](https://github.com/m5c/RestifyAnalyzer/blob/master/02-uploads-anonymized-sources-models.zip) (and the corresponding generated code), provided by participants.
+ * [All patched code and all models (anonymized)](https://github.com/m5c/RestifyAnalyzer/blob/master/03-uploads-sanitized-sources-models.zip) (and the corresponding generated code), provided by participants.
+
+ > *Patched* refers to minimal changes done to participant submissions. In rare cases minimal project configuration mistakes prevented us from testing a submission. In these cases we minimally modified the participant submission. All study interpretations are based on the patched version. We describe the modifications applied in more detail in our paper submission.
  
 ## Participant Test Results
 
-We tested all submissions against the requested REST API interface description.
+We determined *correctness* of all submissions, by testing against a stipulated REST API interface description. The process is described in more detail in the dedicated [analyzer section](analyzer.md).
 
-Here's a [CSV with all the results](extrafiles/observations/tests.csv). You can reproduce the CSV using the above code / model submissions and our [provided tester](analyzer.md).
+ * For your convenience, we provide a [direct link with the test results in CSV format](extrafiles/observations/tests.csv). 
+ * You can reproduce the test results by following the instructions on the [analyzer documentation page](analyzer.md).

@@ -10,13 +10,13 @@ All you need to replicate our findings, reuse our data or tools.
 This webpage servers as entry point for the artifact submission of our [MODELS 2024 conference](https://conf.researchr.org/track/models-2024/models-2024-technical-track#Practice-Track) contribution.
 
  * Main purpose of this replication package is to allow fast and independent replication of all our results and interpretations.
- * We carefully documented all our methodology, and automated our analysis. E.g. all paper figures are generated from raw data, and we provide you the means to conveniently validate correctness of our findings on your local machine.  
+ * We carefully documented all our methodology, and automated our analysis. E.g. all paper figures are generated from raw data, and we provide you with the means to conveniently replicate them and validate correctness of our findings on your local machine.  
  * Furthermore we publish all study material and tools used to conduct the study, so you can easily replicate the experiment, or reuse parts of our material for follow-up research.
 
 
 ## Package Content
 
-This section serves as starting point, where we present the various components of our accompanying artifact submission. Each item on the left navigation bar opens a dedicated page for detailed information of a specific artifact component.
+We now present the various components of our artifact submission. Each of items enumerated in the remainder corresponds to one entry on the navigation bar (left).
 
 ### Replication
 
@@ -28,14 +28,14 @@ This section serves as starting point, where we present the various components o
 
 ### Material
 
-In addition to *replication* of our findings, we provide everything needed to replicate the experiment itself, i.e. we publish the sources for all material and tools involved in performing the experiment:
+In addition to *replication* of our findings, we provide everything needed to replicate the experiment itself, i.e. we publish the sources for all material and tools involved the study conduct. We do so to provide transparency on all details of our methodology, and ease replication of our study by colleagues, as well as reuse of our tools for future related work.
 
  * [Recruitment Material](recruitment.md): Sources and rendered HTML version of the webpage used for participant recruitment.
- * [Group Allocation Algo](allocation.md): Source code and documentation of the algorithm implemented to create a balanced participant groups (comparable skillsets per group).
+ * [Group Allocation Algo](allocation.md): Source code and documentation of the algorithm implemented to create a balanced participant groups (optimizes comparable group skillsets).
  * [Task Instruction Material](material.md): Sources and rendered HTML version with textual and video task instructions for all four control groups.
- * [Sample Legacy Applications (Objects)](applications.md): The sample applications used task for training or actual conversion task.
+ * [Sample Legacy Applications (Objects)](objects.md): The sample applications used task for training or actual conversion task.
 
-### Data and Tools
+### Data and Evaluation
 
  * [Submission Correctness Evaluation Tool](analyzer.md): Sources and documentation of the analyzer tool that we implemented to assess correctness of participant submissions. A reusable tool to test REST APIs against a predefined interface and produce correctness reports.
  * [Raw Experiment Collected Data](data.md): Raw data collected throughout the experiment: CSV and textual summary files that conclude data extracted from video material viewing, such as transcript of observations and time measurements for the individual conversion tasks.
