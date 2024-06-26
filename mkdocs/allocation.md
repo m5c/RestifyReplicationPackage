@@ -4,7 +4,7 @@ We implemented an algorithm to partition study participants on comparable groups
 
 ## Source Code
 
-The documented source code of the [MiniMax implementation and documentation](https://github.com/m5c/RecruitmentFormInterpreter) is available on GitHub.
+The documented source code of the {--[MiniMax implementation and documentation](https://github.com/m5c/RestifyGroupPartitioner) is available on GitHub--} {==[Minimax implementation and documentation is available as local filesystem snapshot](../../RestifyGroupPartitioner/README.md)==}.
 
 ## Explanations
 

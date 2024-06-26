@@ -2,7 +2,18 @@
 
 All you need to replicate our findings, reuse our data or tools.
 
- > **The simplest way to replicate our study findings**, is [the prepared docker image](https://github.com/m5c/RestifyJupyter#dockerized-notebook). Within just a few minutes you can power up a Jupyter Notebook and replicate all statistics and figures of our paper. You only need docker and a browser.
+ > **THIS VERSION IS A STATIC, SELF-CONTAINED SNAPSHOT, CREATED FOR THE MODELS ARTIFACT EVALUATION. UNLESS YOU ARE A REVIEWER, PLEASE [ACCESS THE ORIGINAL](https://m5c.github.io/RestifyReplicationPackage/)**.
+
+**A few things to consider for this STATIC SNAPSHOT version**:
+
+ * To ensure self-containment of this artifact submission, references to individual package components are provided as additional file system links.
+     * Links to the original components are indicated like this: {--original link sample--}
+     * Links to local file system snapshot alternatives are indicated like this: {==local filesystem snapshot==}
+ * In some cases, this reduces convenience, for e.g. README.md files of software artifacts are not nicely rendered, when accessed as file system links.
+ 
+*Hint, for result replication*:
+
+ > **The simplest way to replicate our study findings**, is [{--the prepared docker image--}](https://github.com/m5c/RestifyJupyter#dockerized-notebook) [{==snapshot-contained link==}](../../RestifyJupyter/README.md#dockerized-notebook) (Section: "*Dockerized Notebook*"). Within just a few minutes you can power up a Jupyter Notebook and replicate all statistics and figures of our paper. You only need docker and a browser.
 
 
 ## About
@@ -23,7 +34,7 @@ We now present the various components of our artifact submission. Each of the it
 * [Result Replication](replication.md): Center-piece of our replication package is a Jupyter Notebook that takes you through the data analysis and replicates all paper figures on your machine.
     * We offer various levels of inspection, from static prerendered notebook, to dockerized local replication, to in-depth analysis of the implementation in PyCharm.
     * For the replication we provide you with the raw data collected throughout the experiment. Then you crunch it locally and replicate the findings, all using convenient scripts.
-    * The data analysis was coded for easy inspection and transparency. You can at any point in time inspect the well-documented codenbase, and verify our implementation.
+    * The data analysis was coded for easy inspection and transparency. You can at any point in time inspect the well-documented codebase, and verify our implementation.
   
 
 ### Material
