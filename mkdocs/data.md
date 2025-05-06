@@ -53,3 +53,7 @@ We determined *correctness* of all submissions, by testing against a stipulated 
 
  * For your convenience, we provide a [direct link with the test results in CSV format](extrafiles/observations/tests.csv). 
  * You can reproduce the test results by following the instructions on the [analyzer documentation page](analyzer.md).
+
+### Detailed Test Resuls
+
+As part of our journal extension submission we revisited all submitted code and manually analyzed it for error causes. Implementation deficiencies for submissions are detailed in this numbers file: [Error causes report](extrafiles/observations/fail-reasons.numbers)
